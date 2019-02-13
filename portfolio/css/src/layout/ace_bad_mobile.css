@@ -1,0 +1,22 @@
+/*ACE_BAD_mobile.css*/
+@media screen and (max-width:575px){
+    #footBox{height:14rem;}
+        #footlogoBox{height:30px;margin-left:2.1rem;}
+        #foot_wrap ul{left:2rem; top:10rem;}
+        #address{position: absolute; top:3rem; left:2rem; }
+        .number{position: absolute; top:8rem; left:2rem;}
+
+
+}
+
+@media screen and (max-width:480px){
+
+    /* content */
+    #contentBox{padding:0.5rem;}
+   
+  
+    
+    /* footer */
+
+    
+}

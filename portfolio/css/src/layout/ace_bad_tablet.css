@@ -1,0 +1,67 @@
+ /*ACE_BAD_tablet.css*/
+  @media screen and (min-width:576px) and (max-width:990px){
+ 
+/* footer */
+#footBox{height:13rem;}
+#foot_wrap ul{left:9rem; top:8rem;}
+
+}
+
+@media screen and (max-width:768px){
+ 
+  #wrap{padding-top:0;}
+  #pc_headBox{display:none;}
+    .pc_main_logo{display:none;}
+  #t_headBox{display:block;}
+
+  .contentouter{background-color:#fff;}
+  .new_btn{width:40px; height:20px; margin-left:-20px; margin-top:-10px;}
+    .new_btn2{width:20px; height:20px;}
+
+  .prev_style_btn{width:30px; height:30px; margin-top:-15px; }
+  .next_style_btn{width:30px; height:30px; margin-top:-15px; }
+   .style_btn{width:30px; height:30px; font-size:30px;}
+
+  
+  
+ 
+  
+  
+
+
+
+
+}
+
+@media screen  and (max-width:1300px){
+  #pc_headBox{width:89.23076vw;}
+  #contentBox{width:89.23076vw;}
+
+    .video_wrap{width:89.23076vw; height:50.192307vw;}
+    .sci_wrap{width:89.23076vw; height:28.307692vw;}
+    .sci_indi{width:89.23076vw; height:0.230769vw;}
+    .new_style_wrap{width:89.23076vw; height:46.846153vw;}
+    .mat_rio_wrap{width:89.23076vw; height:25.384615vw;}
+    .wedding_wrap{width:89.23076vw; height:31.846153vw;}
+
+      .newproduct_text{width:35.384615vw; height:6.153846vw;}
+      .newproduct_wrap{width:35.384615vw; height:40.692307vw;}
+
+      .style_text{width:51.615384vw; height:6.153846vw;}
+      .style_wrap{width:51.615384vw; height:40.692307vw;}
+
+      .mat_text{width:63.423076vw; height:6.153846vw;}
+      .mat_wrap{width:63.423076vw; height:19.230769vw;}
+ 
+      .rio_text{width:25.76923vw; height:6.153846vw;}
+      .rio_wrap{width:25.76923vw; height:19.230769vw;} 
+
+      .wedding{width:37.615384vw; height:24.153846vw;}
+
+  
+
+
+  
+
+
+}

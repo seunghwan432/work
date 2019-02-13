@@ -1,0 +1,149 @@
+
+.menutext{font-size:20px; color:#fff; font-weight:bold;}
+.font{font-size:18px; font-weight:bold;}
+.upper{text-transform:uppercase;}
+.bold{font-weight:bold; font-size:30px;}
+a{display:block; width:100%; height:100%;}
+
+
+
+
+body{height:auto; background-image:url("../../../img/bg/bg1.jpg"); background-repeat:no-repeat; background-size:cover; background-attachment: fixed; }
+
+
+/* header */
+#wrap{position:relative; padding-top:2rem; box-sizing:border-box; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.1);}
+       
+    #pc_headBox{ width:1160px; height:auto; margin:auto; background-color:#fff; padding:2.5rem 1.5rem 0.5rem 1.5rem;}
+        .pc_main_logo{margin:auto; width:132px; height:95px; margin-bottom:2rem; background-image:url("../../../img/logo/mainlogo.png"); background-size:cover; 
+                      background-repeat:no-repeat;}
+        .mainmenu_wrap{width:100%; height:22px;}
+            .mainmenu_wrap ul{width:660px; height:100%; margin:auto;}
+                .mainmenu_wrap li{float:left;height:22px; margin-right:30px;}
+                .mainmenu_wrap li:nth-child(1){width:73px; }
+                .mainmenu_wrap li:nth-child(2){width:121px;}
+                .mainmenu_wrap li:nth-child(3){width:73px; }
+                .mainmenu_wrap li:nth-child(4){width:73px; }
+                .mainmenu_wrap li:nth-child(5){width:73px; }
+                .mainmenu_wrap li:nth-child(6){width:92px; margin-right:0; }
+
+    #t_headBox{display:none; position: relative; width:100%; height:auto; background-color:#fff; }
+        .t_main_logo{margin:auto; width:104px; height:75px;  background-image:url("../../../img/logo/mainlogo.png"); background-image:no-repeat; background-size:cover; }
+        .t_gnb button{position: absolute; font-size:30px; top:50%; margin-top:-15px; left:20px; }
+       
+/* content */
+
+.contentouter{ width:100%; height:auto;} 
+    #contentBox{position: relative; margin:auto; margin-bottom:1vw; padding:1.5rem; width:1160px; height:auto; background-color:#fff; }
+    
+    .video_wrap{margin:auto; width:1160px; height:652.5px; margin-bottom:1vw;}
+        .video_wrap .video{width:100%; height:100%;}
+
+    .sci_wrap{width:1160px; height:368px;}
+        .sci_wrap ul{position: relative; width:100%; height:100%;}
+            .sci_wrap li{position: absolute; top:0; left:0; width:100%; height:100%; background-repeat:no-repeat; background-size:cover;  }
+            .sci_wrap li:nth-child(1){background-image:url("../../../img/content/science/sci1.png"); z-index:103;}
+            .sci_wrap li:nth-child(2){background-image:url("../../../img/content/science/sci2.png"); z-index:102;}
+            .sci_wrap li:nth-child(3){background-image:url("../../../img/content/science/sci3.png"); z-index:101;}
+
+    .sci_indi{width:1160px; height:7px; margin-bottom:3vw;}
+        .sci_indi ul{width:100%; height:100%; cursor:pointer; }
+            .sci_indi li{float:left; width:33.33333%; height:100%;}
+            .sci_indi li:nth-child(1){}
+                .sci_active{background-color:#00acdc;}
+
+
+
+    .new_style_wrap{position: relative; width:100%; height:609px; margin-bottom:2vw;}
+        .newproduct_text{width:460px; height:80px; background-image:url("../../../img/text/contenttitle/new.png"); background-repeat:no-repeat; background-size:cover;   } 
+        .newproduct_wrap{position: relative; width:460px; height:529px; overflow:hidden; }
+         
+            .newproduct_wrap ul{ width:200%; height:100%;}
+                .newproduct_wrap li{float:left; width:50%; height:50%; background-repeat:no-repeat; background-size:cover;}
+                .newproduct a{transform:scale(0.8);}
+                .newproduct li:nth-child(1){background-image:url("../../../img/content/new/10.png");}
+                .newproduct li:nth-child(2){background-image:url("../../../img/content/new/11.png");}
+                .newproduct li:nth-child(3){background-image:url("../../../img/content/new/12.png");}
+                .newproduct li:nth-child(4){background-image:url("../../../img/content/new/13.png");}
+                .newproduct a:nth-child(3){height:50%;}
+                .newproduct a:nth-child(4){height:50%;}       
+                .new_btn{position:absolute; top:50%; margin-top:-15px; left:50%; margin-left:-30px; width:60px;height:30px;  background-color:#fff; border-radius:50px;
+                cursor: pointer;}
+                    .new_btn2{width:30px; height:30px; background-color:#00acdc; border-radius:100%; transform:scale(0.8);}
+                    
+                
+
+        .style_wrap{position:absolute; bottom:0; right:0; width:671px; height:529px; overflow: hidden;}
+        .style_text{position: absolute;top:0; right:0;  width:671px; height:80px; background-image:url("../../../img/text/contenttitle/bad.png"); background-repeat:no-repeat; background-size:cover;   }
+
+            .style_wrap ul{ width:400%; height:100%;}
+                .style_wrap li{float:left; width:25%; height:100%; background-repeat:no-repeat; background-size:cover; background-position:50%;}
+                .style_wrap li.style1{background-image:url("../../../img/content/style/13.png");}
+                .style_wrap li.style2{background-image:url("../../../img/content/style/11.png");}
+                .style_wrap li.style3{background-image:url("../../../img/content/style/12.png");}
+                .style_wrap li.style4{background-image:url("../../../img/content/style/10.png");}
+                .prev_style_btn{position: absolute; top:50%; margin-top:-20px; left:0%; width:40px; height:40px;  }
+                .next_style_btn{position: absolute; top:50%; margin-top:-20px; right:0%; width:40px; height:40px;  }
+                    .style_btn{width:40px; height:40px; background-color:#fff; font-size:40px; color:#00acdc; text-align:center;}
+
+    .mat_rio_wrap{position: relative; width:100%; height:330px;}
+        .mat_text{width:824.5px; height:80px;background-image:url("../../../img/text/contenttitle/mat.png"); background-repeat:no-repeat; background-size:cover;   }
+        .mat_wrap{float:left; position: relative; width:824.5px; height:250px; margin-bottom:2rem;}
+        
+            .mat_wrap ul{position: relative; width:100%; height:100%; background-repeat:no-repeat; background-size:cover;}
+                .mat_wrap li{position: absolute; top:0; left:0; width:100%; height:100%; background-repeat:no-repeat; background-size:cover;}
+                .mat_wrap li:nth-child(1){background-image:url("../../../img/content/mattress/1.png");} 
+                .mat_wrap li:nth-child(2){background-image:url("../../../img/content/mattress/1.png");} 
+                .mat_wrap li:nth-child(3){background-image:url("../../../img/content/mattress/1.png");} 
+                .mat_wrap li:nth-child(4){background-image:url("../../../img/content/mattress/4.png");} 
+                
+        
+        .rio_wrap{position: absolute; bottom:0; right:0; width:335.5px; height:250px;}
+            .rio_text{position: absolute; top:0; right:0; width:335.5px; height:80px;background-image:url("../../../img/text/contenttitle/living.png"); background-repeat:no-repeat; background-size:cover;   }
+            .rio_wrap ul{width:100%; height:100%;}
+                .rio_wrap li{width:100%; height:100%; background-image:url("../../../img/content/rio/rio.png"); background-repeat:no-repeat; background-size:cover;}
+
+        .wedding_wrap{position: relative; float:left; width:1160px; height:414px; background-image:url("../../../img/wedding/wedding_bg.png"); background-repeat:no-repeat; background-size:cover;}
+            .wedding{position: absolute;left:50%; top:50%; width:489px; height:314px; background-image:url("../../../img/wedding/wedding.png"); background-repeat:no-repeat; background-size:cover; 
+                transform:translate(-50% ,-50%); }
+                
+                
+   
+            
+
+            
+                
+        
+       
+
+/* footer */
+#footBox{ width:100%; height:10rem; background-color:#323232;}
+    #foot_wrap {position: relative; margin:auto; padding-top:1rem; box-sizing:border-box; width:1160px; height:auto;}
+        #footlogoBox{margin-right:1.5rem; margin-left:1rem; width:120px; height:10rem; float:left;}
+        #foot_wrap ul{position: absolute; left:40rem; top:1.5rem;}
+        #foot_wrap li{float:left;}
+        .number span{margin-right:1rem;}
+        .foot_text{color:#fff; font-size:14px; line-height:0px; font-weight:300;}
+        .copyright{font-size:12px; line-height:3rem;}
+        .privat{margin-right:1rem; color:#fff; border:1px solid #fff; padding:0.5rem;}
+
+
+
+
+        
+
+
+/* 애니메이션 */
+
+
+@keyframes new_btn1{
+    100%{margin-left:50%;}
+}
+
+@keyframes new_btn2{
+    100%{margin-left:0%;}
+}
+
+
+
+
