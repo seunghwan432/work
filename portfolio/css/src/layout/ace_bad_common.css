@@ -12,7 +12,7 @@ body{height:auto; background-image:url("../../../img/bg/bg1.jpg"); background-re
 
 
 /* header */
-#wrap{position:relative; padding-top:2rem; box-sizing:border-box; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.1);}
+#wrap{position:relative; padding-top:2rem; box-sizing:border-box; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.3);}
        
     #pc_headBox{ width:1160px; height:auto; margin:auto; background-color:#fff; padding:2.5rem 1.5rem 0.5rem 1.5rem;}
         .pc_main_logo{margin:auto; width:132px; height:95px; margin-bottom:2rem; background-image:url("../../../img/logo/mainlogo.png"); background-size:cover; 
