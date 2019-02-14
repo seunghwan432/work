@@ -2,8 +2,6 @@
   @media screen and (min-width:576px) and (max-width:990px){
  
 /* footer */
-#footBox{height:13rem;}
-#foot_wrap ul{left:9rem; top:8rem;}
 
 }
 
@@ -15,15 +13,18 @@
   #t_headBox{display:block;}
 
   .contentouter{background-color:#fff;}
+    #contentBox{margin-bottom:0;}
   .new_btn{width:40px; height:20px; margin-left:-20px; margin-top:-10px;}
     .new_btn2{width:20px; height:20px;}
 
   .prev_style_btn{width:30px; height:30px; margin-top:-15px; }
   .next_style_btn{width:30px; height:30px; margin-top:-15px; }
    .style_btn{width:30px; height:30px; font-size:30px;}
+   #foot_wrap{height:200px; background-image:none; }
+   .foot_info_t{display: inline; position: absolute; left:50%; margin-left:-139px; top:20px; width:278px; height:200px; 
+    background-image:url("../../../img/footer/info_t.png"); background-repeat:no-repeat;}
+   
 
-  
-  
  
   
   
@@ -57,6 +58,11 @@
       .rio_wrap{width:25.76923vw; height:19.230769vw;} 
 
       .wedding{width:37.615384vw; height:24.153846vw;}
+      #foot_wrap{width:89.23076vw;}
+     
+
+      
+
 
   
 
