@@ -117,7 +117,7 @@ body{height:auto; background-image:url("../../../img/bg/bg1.jpg"); background-re
        
 
 /* footer */
-#footBox{ width:100%; height:10rem; background-color:#323232;}
+#footBox{ width:100%; height:10rem; background-color:#3e3e3e;}
     #foot_wrap {position: relative; margin:auto; padding-top:1rem; box-sizing:border-box; width:1160px; height:auto;}
         #footlogoBox{margin-right:1.5rem; margin-left:1rem; width:120px; height:10rem; float:left;}
         #foot_wrap ul{position: absolute; left:40rem; top:1.5rem;}
