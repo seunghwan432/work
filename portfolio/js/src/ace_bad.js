@@ -1,15 +1,43 @@
 (function($){
+// 헤더 따라내려오는 기능
+
+var header=$('#pc_headBox');
+var headoffset1=header.offset().top;
+console.log(headoffset1);
+
+$(window).on('scroll',function(e){
+    e.preventDefault();
+    var scroll=$(this).scrollTop();
+    
+    if(headoffset1<=scroll){
+        header.css({position:'fixed',top:0,zIndex:2000,bottom:'auto',opacity:0.8});}else
+        {header.css({position:'static'});}
+    
+  
+
+    console.log(scroll);
+    console.log(headoffset1);
+
+});
+
+
+
 // 과확화면 시간지남에따라 바뀌는기능
+var sciorder;
+var sci=$('.sci_wrap').find('li');
 var sci1=$('.sci_wrap').find('li').eq(0);
 var sci2=$('.sci_wrap').find('li').eq(1);
 var sci3=$('.sci_wrap').find('li').eq(2);
 
+var sciIndi=$('.sci_indii').find('li');
 var sciIndi1=$('.sci_indi').find('li').eq(0);
 var sciIndi2=$('.sci_indi').find('li').eq(1);
 var sciIndi3=$('.sci_indi').find('li').eq(2);
 
 sciIndi1.on('click',function(e){
     e.preventDefault();
+    var sciorder=$(this).index();
+    console.log(sciorder);
     sci1.fadeIn();
     sci1.siblings().fadeOut();
     sciIndi1.siblings().removeClass('sci_active');
@@ -18,6 +46,9 @@ sciIndi1.on('click',function(e){
 
 sciIndi2.on('click',function(e){
     e.preventDefault();
+    var sciorder=$(this).index();
+    console.log(sciorder);
+    
     sci2.fadeIn();
     sci2.siblings().fadeOut();
     sciIndi2.siblings().removeClass('sci_active');
@@ -26,11 +57,23 @@ sciIndi2.on('click',function(e){
 
 sciIndi3.on('click',function(e){
     e.preventDefault();
+    var sciorder=$(this).index();
+    console.log(sciorder);
     sci3.fadeIn();
     sci3.siblings().fadeOut();
     sciIndi3.siblings().removeClass('sci_active');
     sciIndi3.addClass("sci_active");
 });
+
+sciIndi.on('click',function(e){
+    e.preverntDefault();
+    sciorder=$(this).index();
+    console.log(sciorder);
+    
+
+});
+
+
 
 
 
@@ -109,11 +152,52 @@ stylebtnP.on('click',function(e){
         styleul.stop(false,false).animate({marginLeft:stylenum*-100+'%'})
         console.log(stylenum);
     }
-    // 매트리스 페이드인 아웃 하는기능~
+    
+    })
+// 매트리스 기능~~
 
+    var matli=$('.mat_list');
+    var matbtn_wrap=$('.mat_btn_wrap');
+    var matbtn=$('.mat_btn');
+    var matlinum=1;
+    
+    matbtn_wrap.on('click',function(e){
+        if(matlinum==1){
+            matlinum=0;
+        e.preventDefault();
+        matli.animate({left:-35+'%'})
+        matbtn_wrap.animate({left:0+'%'})
+        matbtn.css({transform:'rotate('+360+'deg)'});
+    }else{
+        matlinum=1;
+        e.preventDefault();
+        matli.animate({left:0+'%'})
+        matbtn_wrap.animate({left:35+'%'})
+        matbtn.css({transform:'rotate('+180+'deg)'});
+    }
+    });
+
+    var matul1=$('.mat_ul_1');
+    var matul1_li=matul1.children('li');
+
+    var matul2=$('.mat_ul_2');
+    var matul2_li=matul2.children('li');
+
+    matul1_li.on('click',function(e){
+        e.preventDefault();
+        
+        var order=$(this).index();
+        console.log(order);
+        matul2_li.eq(order).fadeIn();
+        matul2_li.eq(order).siblings().fadeOut();
+
+        matul1_li.eq(order).css({backgroundColor:'#00acdc',transform:'scale('+1+')'    });
+        matul1_li.eq(order).siblings().css({backgroundColor:'#fff',transform:'scale('+0.9+')'});
+
+
+    });
     
 
-    
 
 
 
@@ -121,8 +205,6 @@ stylebtnP.on('click',function(e){
 
 
 
-
-});
 
 
    
