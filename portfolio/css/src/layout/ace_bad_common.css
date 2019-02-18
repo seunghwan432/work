@@ -27,7 +27,7 @@ body{height:auto; background-image:url("../../../img/bg/bg1.jpg"); background-re
                 .mainmenu_wrap li:nth-child(5){width:73px; }
                 .mainmenu_wrap li:nth-child(6){width:92px; margin-right:0; }
 
-    #t_headBox{display:none; position: relative; width:100%; height:auto; background-color:#fff; }
+    #t_headBox{display:none; position: relative; width:100%; height:auto; padding:1rem 0 0 0; background-color:#fff; }
         .t_main_logo{margin:auto; width:104px; height:75px;  background-image:url("../../../img/logo/mainlogo.png"); background-image:no-repeat; background-size:cover; }
         .t_gnb button{position: absolute; font-size:30px; top:50%; margin-top:-15px; left:20px; }
        
