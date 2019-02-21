@@ -1,24 +1,24 @@
 (function($){
 // 헤더 따라내려오는 기능
 
-// var header=$('#pc_headBox');
-// var headoffset1=header.offset().top;
-// console.log(headoffset1);
+var header=$('#pc_headBox');
+var headoffset1=header.offset().top;
+console.log(headoffset1);
 
-// $(window).on('scroll',function(e){
-//     e.preventDefault();
-//     var scroll=$(this).scrollTop();
+$(window).on('scroll',function(e){
+    e.preventDefault();
+    var scroll=$(this).scrollTop();
     
-//     if(headoffset1<=scroll){
-//         header.css({position:'fixed',top:0,zIndex:2000,bottom:'auto',opacity:0.8});}else
-//         {header.css({position:'static'});}
+    if(headoffset1<=scroll){
+        header.css({position:'fixed',top:0,zIndex:2000,bottom:'auto',opacity:0.8});}else
+        {header.css({position:'static'});}
     
   
 
-//     console.log(scroll);
-//     console.log(headoffset1);
+    console.log(scroll);
+    console.log(headoffset1);
 
-// });
+});
 
 
 
