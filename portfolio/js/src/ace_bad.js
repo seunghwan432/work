@@ -154,7 +154,7 @@ stylebtnP.on('click',function(e){
     }
     
     })
-// 매트리스 기능~~
+
 
     var matli=$('.mat_list');
     var matbtn_wrap=$('.mat_btn_wrap');
@@ -191,7 +191,7 @@ stylebtnP.on('click',function(e){
         matul2_li.eq(order).fadeIn();
         matul2_li.eq(order).siblings().fadeOut();
 
-        matul1_li.eq(order).css({backgroundColor:'#00acdc',transform:'scale('+1+')'    });
+        matul1_li.eq(order).css({transform:'scale('+1+')'    });
         matul1_li.eq(order).siblings().css({backgroundColor:'#fff',transform:'scale('+0.9+')'});
 
 
